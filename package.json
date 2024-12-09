@@ -1,11 +1,15 @@
 {
+  "homepage": "https://andrey9019.github.io/AndriyPortfolio/",
   "name": "andriy-portfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build --base=/AndriyPortfolio/",
+    "build": "vite build",
+    "lint": "eslint .",
     "preview": "vite preview"
   },
   "devDependencies": {
