@@ -1,7 +1,8 @@
 import { defineConfig } from "vite";
-import injectHTML from "vite-plugin-html-inject";
-import FullReload from "vite-plugin-full-reload";
-import SortCss from "postcss-sort-media-queries";
+// import injectHTML from "vite-plugin-html-inject";
+// import FullReload from "vite-plugin-full-reload";
+// import SortCss from "postcss-sort-media-queries";
+import react from "@vitejs/plugin-react";
 
 export default defineConfig(({ command }) => {
   return {
@@ -24,10 +25,16 @@ export default defineConfig(({ command }) => {
         },
       },
     },
+    resolve: {
+      alias: {
+        "@": "/src",
+      },
+    },
     plugins: [
-      injectHTML(),
-      FullReload(["./src/**/**.html"]),
-      SortCss({ sort: "mobile-first" }),
+      [react()],
+      // injectHTML(),
+      // FullReload(["./src/**/**.html"]),
+      // SortCss({ sort: "mobile-first" }),
     ],
   };
 });
