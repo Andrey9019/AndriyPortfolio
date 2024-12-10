@@ -13,8 +13,8 @@ export const allProjects = [
   // 1
   {
     image: {
-      mobileSrc: "/img/projects/laptop_tastyTreats@1x.jpg",
-      desktopSrc: "/img/projects/laptop_taskPro@2x.webp",
+      mobileSrc: "/public/projects/laptop_tastyTreats@1x.jpg",
+      desktopSrc: "/public/projects/laptop_taskPro@2x.webp",
     },
     heading: "Task Pro",
     skills: [FaReact, SiTypescript, SiTailwindcss, SiVite, SiRedux],
@@ -24,8 +24,8 @@ export const allProjects = [
   // 2
   {
     image: {
-      mobileSrc: "/img/projects/laptop_trendingMowie@1x.jpg",
-      desktopSrc: "/img/projects/laptop_trendingMowie@2x.webp",
+      mobileSrc: "/public/projects/laptop_trendingMowie@1x.jpg",
+      desktopSrc: "/public/projects/laptop_trendingMowie@2x.webp",
     },
     heading: "Trending movies",
     skills: [FaReact, FaJsSquare, FaHtml5, FaCss3Alt, SiReactrouter, SiAxios],
@@ -35,8 +35,8 @@ export const allProjects = [
   // 3
   {
     image: {
-      mobileSrc: "/img/projects/laptop_yacht@1x.jpg",
-      desktopSrc: "/img/projects/laptop_yacht@1x.jpg",
+      mobileSrc: "/public/projects/laptop_yacht@1x.jpg",
+      desktopSrc: "/public/projects/laptop_yacht@1x.jpg",
     },
     heading: "Yacht Adventures",
     skills: [FaReact, SiVite, FaJsSquare, SiTailwindcss],
@@ -48,8 +48,8 @@ export const allProjects = [
   // 4
   {
     image: {
-      mobileSrc: "/img/projects/laptop_tastyTreats@1x.jpg",
-      desktopSrc: "/img/projects/laptop_tastyTreats@2x.webp",
+      mobileSrc: "/public/projects/laptop_tastyTreats@1x.jpg",
+      desktopSrc: "/public/projects/laptop_tastyTreats@2x.webp",
     },
     heading: "Tasty Treats",
     skills: [FaHtml5, FaCss3Alt, FaJsSquare, SiVite, SiAxios],
@@ -61,8 +61,8 @@ export const allProjects = [
   // 5
   {
     image: {
-      mobileSrc: "/img/projects/laptop_searchimages@1x.jpg",
-      desktopSrc: "/img/projects/laptop_searchimages@2x.webp",
+      mobileSrc: "/public/projects/laptop_searchimages@1x.jpg",
+      desktopSrc: "/public/projects/laptop_searchimages@2x.webp",
     },
     heading: "Search Images",
     skills: [
@@ -80,8 +80,8 @@ export const allProjects = [
   // 6
   {
     image: {
-      mobileSrc: "/img/projects/laptop_barbershop@1x.jpg",
-      desktopSrc: "/img/projects/laptop_barbershop@2x.webp",
+      mobileSrc: "/public/projects/laptop_barbershop@1x.jpg",
+      desktopSrc: "/public/projects/laptop_barbershop@2x.webp",
     },
     heading: "Barbershop",
     skills: [FaHtml5, FaCss3Alt, FaJsSquare],
