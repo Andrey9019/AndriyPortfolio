@@ -13,8 +13,8 @@ export const allProjects = [
   // 1
   {
     image: {
-      mobileSrc: "/public/projects/laptop_tastyTreats@1x.jpg",
-      desktopSrc: "/public/projects/laptop_taskPro@2x.webp",
+      mobileSrc: "/images/laptop_tastyTreats@1x.jpg",
+      desktopSrc: "/images/laptop_taskPro@2x.webp",
     },
     heading: "Task Pro",
     skills: [FaReact, SiTypescript, SiTailwindcss, SiVite, SiRedux],
