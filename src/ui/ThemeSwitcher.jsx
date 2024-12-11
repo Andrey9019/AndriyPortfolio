@@ -31,7 +31,7 @@ const ThemeSwitcher = () => {
   return (
     <div
       onClick={toggleTheme}
-      className={`flex items-center w-14 p-0.5 pr-[3px] border rounded-2xl  ${
+      className={`flex items-center w-14 p-0.5 pr-[3px] border rounded-2xl cursor-pointer ${
         darkMode ? "border-white " : "border-black "
       }`}
     >
