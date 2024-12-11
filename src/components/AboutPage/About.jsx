@@ -8,7 +8,7 @@ export const About = () => {
         <div className="flex justify-center lg:justify-end">
           <div className="  w-48 h-48 sm:w-56 sm:h-56 lg:w-72 lg:h-72 ">
             <img
-              src="/images/portfolioPhoto/face.webp"
+              src="/images/portfolioPhoto/face@2x.webp"
               alt="my face"
               className="object-cover"
             />

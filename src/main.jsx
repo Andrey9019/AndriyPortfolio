@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-// import { ScrollToTop } from "./ui/ScrollToTop";
+import ScrollToTop from "./ui/ScrollToTop";
 import { AboutPage } from "./page/AboutPage";
 import { ProjectsPage } from "./page/ProjectsPage";
 import { ContactsPage } from "./page/ContactsPage";
@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Router>
       <div className="flex flex-col min-h-screen">
-        {/* <ScrollToTop /> */}
+        <ScrollToTop />
         <div className="flex-grow">
           <Routes>
             <Route path="/" element={<AboutPage />} />
