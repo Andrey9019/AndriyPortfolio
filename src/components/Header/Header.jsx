@@ -1,6 +1,6 @@
-import React from 'react';
-import { HeaderMobile } from './HeaderMobile';
-import { HeaderDesktop } from './HeaderDesktop';
+import React from "react";
+import { HeaderMobile } from "./HeaderMobile";
+import { HeaderDesktop } from "./HeaderDesktop";
 // import { NavLink } from 'react-router-dom';
 // import ThemeSwitcher from 'ui/ThemeSwitcher';
 
