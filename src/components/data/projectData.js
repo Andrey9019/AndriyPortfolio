@@ -18,8 +18,17 @@ export const allProjects = [
     },
     heading: "Task Pro",
     skills: [FaReact, SiTypescript, SiTailwindcss, SiVite, SiRedux],
-    description: `This web app allows users to manage tasks efficiently, similar to popular task management tools like Trello. This was a team project.`,
     links: ["https://taskpro.uk/"],
+    translations: {
+      en: {
+        description:
+          "This web app allows users to manage tasks efficiently, similar to popular task management tools like Trello. This was a team project.",
+      },
+      uk: {
+        description:
+          "Цей веб-додаток дозволяє користувачам ефективно керувати завданнями, подібно до популярних інструментів управління завданнями, таких як Trello. Це мій командний проект.",
+      },
+    },
   },
   // 2
   {
@@ -31,6 +40,14 @@ export const allProjects = [
     skills: [FaReact, FaJsSquare, FaHtml5, FaCss3Alt, SiReactrouter, SiAxios],
     description: "This website is your guide to the world of cinema.",
     links: ["https://andrey9019.github.io/goit-react-hw-05-movies/"],
+    translations: {
+      en: {
+        description: "This website is your guide to the world of cinema.",
+      },
+      uk: {
+        description: "Цей сайт - ваш путівник у світ кіно.",
+      },
+    },
   },
   // 3
   {
@@ -40,9 +57,17 @@ export const allProjects = [
     },
     heading: "Yacht Adventures",
     skills: [FaReact, SiVite, FaJsSquare, SiTailwindcss],
-    description:
-      "The site was created to make the process of choosing and renting a yacht as simple and convenient as possible for the user.",
     links: ["https://andrey9019.github.io/yacht-adventures/"],
+    translations: {
+      en: {
+        description:
+          "The site was created to make the process of choosing and renting a yacht as simple and convenient as possible for the user.",
+      },
+      uk: {
+        description:
+          "Сайт створений для того, щоб зробити процес вибору і оренди яхти максимально простим і зручним для користувача.",
+      },
+    },
   },
 
   // 4
@@ -53,10 +78,20 @@ export const allProjects = [
     },
     heading: "Tasty Treats",
     skills: [FaHtml5, FaCss3Alt, FaJsSquare, SiVite, SiAxios],
-    description: `"TastyTreats is a handy tool for those who want to find ideas for dishes and see how to cook them, all with ease and convenience.`,
     links: [
       "https://valeriia-trytiak.github.io/project_01_Taste_Masters_Team/",
     ],
+
+    translations: {
+      en: {
+        description:
+          "TastyTreats is a handy tool for those who want to find ideas for dishes and see how to cook them, all with ease and convenience.",
+      },
+      uk: {
+        description:
+          "TastyTreats - це зручний інструмент для тих, хто хоче знайти ідеї для страв і подивитися, як їх приготувати, і все це з легкістю і зручністю.",
+      },
+    },
   },
   // 5
   {
@@ -73,9 +108,17 @@ export const allProjects = [
       SiStyledcomponents,
       SiAxios,
     ],
-    description:
-      "This site is an interface for searching for images using keywords.",
     links: ["https://andrey9019.github.io/goit-js-hw-11/"],
+    translations: {
+      en: {
+        description:
+          "This site is an interface for searching for images using keywords.",
+      },
+      uk: {
+        description:
+          "Цей сайт - інтерфейс для пошуку зображень за допомогою ключових слів.",
+      },
+    },
   },
   // 6
   {
@@ -85,8 +128,16 @@ export const allProjects = [
     },
     heading: "Barbershop",
     skills: [FaHtml5, FaCss3Alt, FaJsSquare],
-    description:
-      "On the website, clients book appointments online, find information quickly, and schedule their visit.",
     links: ["https://andrey9019.github.io/Website-for-Barbershop/"],
+    translations: {
+      en: {
+        description:
+          "On the website, clients book appointments online, find information quickly, and schedule their visit.",
+      },
+      uk: {
+        description:
+          "На сайті клієнти записуються онлайн, швидко знаходять інформацію, і планують свій візит.",
+      },
+    },
   },
 ];

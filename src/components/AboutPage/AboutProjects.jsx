@@ -4,7 +4,11 @@ import Button from "/ui/Button";
 
 import { allProjects } from "../data/projectData";
 
+import { useTranslation } from "react-i18next";
+
 export const AboutProjects = () => {
+  const { t } = useTranslation();
+
   return (
     <section
       id="projects"
@@ -13,15 +17,14 @@ export const AboutProjects = () => {
       <div className="w-full mb-20 text-left flex flex-col lg:flex-row lg:justify-evenly lg:items-center lg:gap-6">
         <div className="lg:w-[60%]">
           <h2 className="text-blue-600 text-4xl sm:text-5xl font-bold uppercase mb-2">
-            Portfolio
+            {t("about.portfolio")}
           </h2>
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-100">
-            A gallery of my projects. I made them myself and together with my
-            friends. Do you want to see more?
+            {t("about.projects_title")}
           </p>
         </div>
         <div className="mt-4 ">
-          <Button text="All projects" href="/projects" />
+          <Button text={t("about.projects_button")} href="/projects" />
         </div>
       </div>
 

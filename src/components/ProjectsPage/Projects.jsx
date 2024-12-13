@@ -1,9 +1,12 @@
-import React from 'react';
-import ProjectCard from './ProjectCard';
-import { allProjects } from '../data/projectData';
-import { Wave } from '../../ui/Wave';
+import React from "react";
+import ProjectCard from "./ProjectCard";
+import { allProjects } from "../data/projectData";
+import { Wave } from "../../ui/Wave";
+
+import { useTranslation } from "react-i18next";
 
 export const Projects = () => {
+  const { t } = useTranslation();
   return (
     <>
       <Wave />
@@ -13,10 +16,10 @@ export const Projects = () => {
       >
         <div className="w-full sm:w-2/3 lg:w-1/2 mb-20  text-left  justify-start">
           <h2 className="text-blue-600 text-4xl sm:text-5xl font-bold uppercase mb-2">
-            Projects
+            {t("project.title")}
           </h2>
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-100">
-            All my projects are collected here
+            {t("project.text")}
           </p>
         </div>
         <div className="flex justify-center text-xl sm:text-7xl lg:text-9xl space-x-4">

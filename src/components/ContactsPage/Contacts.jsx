@@ -1,14 +1,18 @@
-import { Wave } from '../../ui/Wave';
-import { BackgroundDetails } from '../../ui/BackgroundDetails';
+import { Wave } from "../../ui/Wave";
+import { BackgroundDetails } from "../../ui/BackgroundDetails";
 import {
   FaEnvelope,
   FaLinkedin,
   FaTelegram,
   FaGithub,
   FaInstagram,
-} from 'react-icons/fa';
+} from "react-icons/fa";
+
+import { useTranslation } from "react-i18next";
 
 export const Contacts = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <Wave />
@@ -18,10 +22,10 @@ export const Contacts = () => {
       >
         <div className="w-full sm:w-2/3 lg:w-1/2 mb-20 lg:mb-48 text-left justify-start">
           <h2 className="text-4xl sm:text-5xl font-bold uppercase mb-2 text-blue-600">
-            Contact
+            {t("contact.title")}
           </h2>
           <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-100">
-            You can find me here
+            {t("contact.text")}
           </p>
         </div>
         <div className="flex flex-wrap justify-center text-7xl lg:text-9xl space-x-4">

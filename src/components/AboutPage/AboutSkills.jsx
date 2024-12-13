@@ -1,7 +1,11 @@
 import Button from "/ui/Button";
 import React from "react";
 
+import { useTranslation } from "react-i18next";
+
 export const AboutSkills = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="flex max-w-[1200px] mx-auto shadow p-3 flex-wrap lg:flex-nowrap justify-center">
       <ul className=" gap-5 grid mb-6 md:mb-0 grid-cols-3 md:grid-cols-5 lg:grid-cols-9  mx-auto">
@@ -133,7 +137,7 @@ export const AboutSkills = () => {
       <Button
         target="_blank"
         rel="noopener noreferrer"
-        text="Resume"
+        text={t("about.resume_button")}
         href="https://drive.google.com/file/d/1mTdW-71j-wIiGcOgiRIP-UzK3AS9pWNa/view?usp=sharing"
       />
     </div>

@@ -3,7 +3,12 @@ import { NavLink } from "react-router-dom";
 import { FaGripLines, FaGripLinesVertical } from "react-icons/fa";
 import ThemeSwitcher from "/ui/ThemeSwitcher";
 
+import { useTranslation } from "react-i18next";
+import LanguageSwitcher from "/ui/LanguageSwitcher";
+
 export const HeaderMobile = () => {
+  const { t } = useTranslation();
+
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -56,7 +61,7 @@ export const HeaderMobile = () => {
                   : "text-lg font-medium text-gray-900 hover:text-blue-600 dark:text-white dark:hover:text-blue-300"
               }
             >
-              About me
+              {t("header.about_nav")}
             </NavLink>
           </li>
           <li>
@@ -69,7 +74,7 @@ export const HeaderMobile = () => {
                   : "text-lg font-medium text-gray-900 hover:text-blue-600 dark:text-white dark:hover:text-blue-300"
               }
             >
-              Projects
+              {t("header.projects_nav")}
             </NavLink>
           </li>
           <li>
@@ -82,9 +87,10 @@ export const HeaderMobile = () => {
                   : "text-lg font-medium text-gray-900 hover:text-blue-600 dark:text-white dark:hover:text-blue-300"
               }
             >
-              Contacts
+              {t("header.contacts_nav")}
             </NavLink>
           </li>
+          <LanguageSwitcher />
         </ul>
       </div>
       {isOpen && (

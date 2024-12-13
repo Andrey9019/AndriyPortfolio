@@ -9,7 +9,12 @@ const LanguageSwitcher = () => {
 
   return (
     <div className="flex gap-2">
-      <button onClick={() => changeLanguage("en")} className="">
+      <button
+        onClick={() => changeLanguage("en")}
+        className={`transition-opacity duration-200 ${
+          i18n.language === "en" ? "opacity-50" : "opacity-100"
+        }`}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"
@@ -132,7 +137,12 @@ const LanguageSwitcher = () => {
         </svg>
       </button>
 
-      <button onClick={() => changeLanguage("uk")} className="">
+      <button
+        onClick={() => changeLanguage("uk")}
+        className={`transition-opacity duration-200 ${
+          i18n.language === "uk" ? "opacity-50" : "opacity-100"
+        }`}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="30"
