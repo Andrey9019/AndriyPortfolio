@@ -2,6 +2,7 @@ import React from "react";
 import Button from "/ui/Button";
 
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export const About = () => {
   const { t } = useTranslation();
@@ -28,7 +29,11 @@ export const About = () => {
           <div className="flex justify-center lg:justify-start">
             <ul className="flex space-x-4">
               <li>
-                <Button text={t("about.talk_button")} href="/contacts" />
+                <Button
+                  text={t("about.talk_button")}
+                  href="/contacts"
+                  as={Link}
+                />
               </li>
               {/* <li>Placeholder for other links</li> */}
             </ul>
