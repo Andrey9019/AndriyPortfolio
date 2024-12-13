@@ -46,7 +46,7 @@ export const ProjectCard = ({ projectContent }) => {
         </div>
 
         <div
-          className={`hidden md:flex flex-col justify-between absolute inset-0 bg-white bg-opacity-90 p-4 transition-opacity duration-300 ease-in-out ${
+          className={`overflow-y-auto scrollbar-hidden hidden md:flex flex-col justify-between absolute inset-0 bg-white bg-opacity-90 p-4 transition-opacity duration-300 ease-in-out ${
             hover ? "opacity-100" : "opacity-0"
           }`}
         >

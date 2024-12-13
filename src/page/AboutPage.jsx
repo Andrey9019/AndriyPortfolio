@@ -3,6 +3,7 @@ import { About } from "../components/AboutPage/About";
 import { AboutSkills } from "../components/AboutPage/AboutSkills";
 import { AboutProjects } from "../components/AboutPage/AboutProjects";
 import React from "react";
+import { AboutWave } from "/ui/AboutWave";
 
 export const AboutPage = () => {
   return (
@@ -12,6 +13,7 @@ export const AboutPage = () => {
         <About />
         <AboutSkills />
         <AboutProjects />
+        <AboutWave />
       </main>
     </>
   );

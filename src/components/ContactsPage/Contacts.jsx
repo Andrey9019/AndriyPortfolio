@@ -28,7 +28,7 @@ export const Contacts = () => {
             {t("contact.text")}
           </p>
         </div>
-        <div className="flex flex-wrap justify-center text-7xl lg:text-9xl space-x-4">
+        <div className="flex flex-wrap justify-center text-7xl lg:text-9xl">
           <a
             href="mailto:1234andrey5678@gmail.com"
             className="px-4 py-2 text-blue-600 hover:text-black dark:hover:text-gray-100  transition duration-300"

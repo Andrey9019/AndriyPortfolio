@@ -7,7 +7,7 @@ export const AboutSkills = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="flex max-w-[1200px] mx-auto shadow p-3 flex-wrap lg:flex-nowrap justify-center">
+    <div className="flex max-w-[1440px] mx-auto shadow p-3 flex-wrap lg:flex-nowrap justify-center">
       <ul className=" gap-5 grid mb-6 md:mb-0 grid-cols-3 md:grid-cols-5 lg:grid-cols-9  mx-auto">
         <SkillItem
           icon={
