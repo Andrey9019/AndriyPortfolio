@@ -5,6 +5,7 @@ import Button from "/ui/Button";
 import { allProjects } from "../data/projectData";
 
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 export const AboutProjects = () => {
   const { t } = useTranslation();
@@ -24,7 +25,11 @@ export const AboutProjects = () => {
           </p>
         </div>
         <div className="mt-4 ">
-          <Button text={t("about.projects_button")} href="/projects" />
+          <Button
+            text={t("about.projects_button")}
+            href="/projects"
+            as={Link}
+          />
         </div>
       </div>
 
