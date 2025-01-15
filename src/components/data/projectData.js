@@ -1,3 +1,4 @@
+import { IoLogoFirebase } from "react-icons/io5";
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import {
   SiAxios,
@@ -52,8 +53,29 @@ export const allProjects = [
   // 3
   {
     image: {
+      mobileSrc: "/images/laptop_nanny@1x.jpg",
+      desktopSrc: "/images/laptop_nanny@2x.webp",
+    },
+    heading: "Nanny Services",
+    skills: [FaReact, SiVite, FaJsSquare, IoLogoFirebase, SiTailwindcss],
+    links: ["https://andrey9019.github.io/nannies-app/"],
+    translations: {
+      en: {
+        description:
+          "It is a user-friendly nanny search platform with a set of filters. It's perfect for parents looking for a nanny that fits their needs.",
+      },
+      uk: {
+        description:
+          "Це зручна платформа для пошуку нянь з набором фільтрів. Ідеально підходить для батьків, які шукають няню, відповідну їхнім потребам.",
+      },
+    },
+  },
+
+  // 4
+  {
+    image: {
       mobileSrc: "/images/laptop_yacht@1x.jpg",
-      desktopSrc: "/images/laptop_yacht@1x.jpg",
+      desktopSrc: "/images/laptop_yacht@2x.webp",
     },
     heading: "Yacht Adventures",
     skills: [FaReact, SiVite, FaJsSquare, SiTailwindcss],
@@ -70,7 +92,7 @@ export const allProjects = [
     },
   },
 
-  // 4
+  // 5
   {
     image: {
       mobileSrc: "/images/laptop_tastyTreats@1x.jpg",
@@ -93,7 +115,7 @@ export const allProjects = [
       },
     },
   },
-  // 5
+  // 6
   {
     image: {
       mobileSrc: "/images/laptop_searchimages@1x.jpg",
@@ -120,7 +142,7 @@ export const allProjects = [
       },
     },
   },
-  // 6
+  // 7
   {
     image: {
       mobileSrc: "/images/laptop_barbershop@1x.jpg",
