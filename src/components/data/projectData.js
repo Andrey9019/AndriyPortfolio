@@ -1,3 +1,4 @@
+import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoFirebase } from "react-icons/io5";
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import {
@@ -38,9 +39,11 @@ export const allProjects = [
       desktopSrc: "/images/laptop_trendingMowie@2x.webp",
     },
     heading: "Trending movies",
-    skills: [FaReact, FaJsSquare, FaHtml5, FaCss3Alt, SiReactrouter, SiAxios],
+    skills: [TbBrandNextjs, SiVite, SiTypescript, SiTailwindcss],
     description: "This website is your guide to the world of cinema.",
-    links: ["https://andrey9019.github.io/goit-react-hw-05-movies/"],
+    links: [
+      "https://goit-react-hw-05-movies-7zwzhab26-andreys-projects-aefe0b4d.vercel.app/",
+    ],
     translations: {
       en: {
         description: "This website is your guide to the world of cinema.",
