@@ -138,7 +138,7 @@ export const AboutSkills = () => {
         target="_blank"
         rel="noopener noreferrer"
         text={t("about.resume_button")}
-        href="https://drive.google.com/file/d/1mTdW-71j-wIiGcOgiRIP-UzK3AS9pWNa/view?usp=sharing"
+        href="https://drive.google.com/file/d/1S3szAz1JigcLUJenkWKwVgLQVhc2ecmw/view?usp=sharing"
       />
     </div>
   );
