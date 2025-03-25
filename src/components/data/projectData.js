@@ -41,9 +41,7 @@ export const allProjects = [
     heading: "Trending movies",
     skills: [TbBrandNextjs, SiVite, SiTypescript, SiTailwindcss],
     description: "This website is your guide to the world of cinema.",
-    links: [
-      "https://goit-react-hw-05-movies-7zwzhab26-andreys-projects-aefe0b4d.vercel.app/",
-    ],
+    links: ["https://goit-react-hw-05-movies-five.vercel.app/"],
     translations: {
       en: {
         description: "This website is your guide to the world of cinema.",
