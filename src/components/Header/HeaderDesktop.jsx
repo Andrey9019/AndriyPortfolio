@@ -12,7 +12,7 @@ export const HeaderDesktop = () => {
   return (
     <>
       <header
-        className="fixed z-10 hidden  w-full px-8 py-4 text-black transition-colors duration-300 bg-white/70 shadow-md dark:bg-[#252526] dark:text-white md:flex"
+        className="fixed z-10 hidden  w-full px-8 py-4 text-black transition-colors duration-300 bg-white/70 shadow-md dark:bg-[#252526]/80 dark:text-white md:flex"
         style={{ backdropFilter: "url(#svgfilter)" }}
       >
         <div className="flex items-center justify-between w-full gap-8 header">
