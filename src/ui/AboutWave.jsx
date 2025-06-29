@@ -20,7 +20,7 @@ export const AboutWave = () => {
             xlinkHref="#gentle-wave"
             x="48"
             y="7"
-            className="dark:fill-black fill-white transition-colors duration-300"
+            className="dark:fill-[#252526] fill-white transition-colors duration-300"
           />
         </g>
       </svg>

@@ -27,11 +27,11 @@ export const HeaderMobile = () => {
 
   return (
     <>
-      <header className="fixed w-full bg-white dark:bg-black text-black dark:text-white shadow-md py-4 px-8 z-10 transition-colors duration-300 md:hidden flex justify-between items-center">
+      <header className="fixed z-10 flex items-center justify-between w-full px-8 py-4 text-black transition-colors duration-300 bg-white shadow-md dark:bg-[#252526] dark:text-white md:hidden">
         <ThemeSwitcher />
         <button
           onClick={toggleMenu}
-          className="text-2xl focus:outline-none text-gray-900 dark:text-white"
+          className="text-2xl text-gray-900 focus:outline-none dark:text-white"
         >
           <FaGripLines />
         </button>
@@ -44,13 +44,13 @@ export const HeaderMobile = () => {
       >
         <button
           onClick={closeMenu}
-          className="absolute top-4 right-8 text-2xl text-gray-900 dark:text-white focus:outline-none"
+          className="absolute text-2xl text-gray-900 top-4 right-8 dark:text-white focus:outline-none"
         >
           <div>
             <FaGripLinesVertical />
           </div>
         </button>
-        <ul className="flex flex-col items-start p-6 gap-6 mt-12">
+        <ul className="flex flex-col items-start gap-6 p-6 mt-12">
           <li>
             <NavLink
               to="/"
@@ -95,7 +95,7 @@ export const HeaderMobile = () => {
       </div>
       {isOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-10"
+          className="fixed inset-0 z-10 bg-black bg-opacity-50"
           onClick={closeMenu}
         ></div>
       )}

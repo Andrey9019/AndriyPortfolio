@@ -20,25 +20,25 @@ export const Wave = () => {
             xlinkHref="#gentle-wave"
             x="48"
             y="0"
-            className="dark:fill-gray-800 fill-gray-300 transition-colors duration-300"
+            className="transition-colors duration-300 dark:fill-gray-800 fill-gray-300"
           />
           <use
             xlinkHref="#gentle-wave"
             x="48"
             y="3"
-            className="dark:fill-gray-700 fill-gray-200 transition-colors duration-300"
+            className="transition-colors duration-300 dark:fill-gray-700 fill-gray-200"
           />
           <use
             xlinkHref="#gentle-wave"
             x="48"
             y="5"
-            className="dark:fill-gray-600 fill-gray-100 transition-colors duration-300"
+            className="transition-colors duration-300 dark:fill-gray-600 fill-gray-100"
           />
           <use
             xlinkHref="#gentle-wave"
             x="48"
             y="7"
-            className="dark:fill-black fill-white transition-colors duration-300"
+            className="dark:fill-[#252526] fill-white transition-colors duration-300"
           />
         </g>
       </svg>

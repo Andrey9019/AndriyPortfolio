@@ -9,8 +9,8 @@ export const HeaderDesktop = () => {
   const { t } = useTranslation();
 
   return (
-    <header className="fixed w-full bg-white dark:bg-black text-black dark:text-white shadow-md py-4 px-8 z-10 transition-colors duration-300 hidden md:flex">
-      <div className="header w-full flex items-center justify-between  gap-8">
+    <header className="fixed z-10 hidden w-full px-8 py-4 text-black transition-colors duration-300 bg-white shadow-md dark:bg-[#252526] dark:text-white md:flex">
+      <div className="flex items-center justify-between w-full gap-8 header">
         <ThemeSwitcher />
         <ul className="flex gap-8">
           <li>

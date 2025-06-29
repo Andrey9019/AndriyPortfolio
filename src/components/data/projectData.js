@@ -3,16 +3,44 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { FaReact, FaJsSquare, FaHtml5, FaCss3Alt } from "react-icons/fa";
 import {
   SiAxios,
-  SiReactrouter,
   SiStyledcomponents,
   SiTypescript,
   SiVite,
   SiTailwindcss,
   SiRedux,
+  SiPrisma,
+  SiRadixui,
 } from "react-icons/si";
 
 export const allProjects = [
   // 1
+  {
+    image: {
+      mobileSrc: "/images/laptop_cardboard@1x.jpg",
+      desktopSrc: "/images/laptop_cardboard@2x.webp",
+    },
+    heading: "Card&Board",
+    skills: [
+      TbBrandNextjs,
+      SiTypescript,
+      SiTailwindcss,
+      SiPrisma,
+      SiRadixui,
+      SiAxios,
+    ],
+    links: ["https://card-board.vercel.app/"],
+    translations: {
+      en: {
+        description:
+          "Online board games store with a catalog, filters, shopping cart, checkout, and responsive design. ",
+      },
+      uk: {
+        description:
+          "Інтернет-магазин настільних ігор з каталогом, фільтрами, кошиком, оформленням замовлення та адаптивним дизайном.",
+      },
+    },
+  },
+  // 2
   {
     image: {
       mobileSrc: "/images/laptop_tastyTreats@1x.jpg",
@@ -32,7 +60,7 @@ export const allProjects = [
       },
     },
   },
-  // 2
+  // 3
   {
     image: {
       mobileSrc: "/images/laptop_trendingMowie@1x.jpg",
@@ -51,7 +79,7 @@ export const allProjects = [
       },
     },
   },
-  // 3
+  // 4
   {
     image: {
       mobileSrc: "/images/laptop_nanny@1x.jpg",
@@ -72,7 +100,7 @@ export const allProjects = [
     },
   },
 
-  // 4
+  // 5
   {
     image: {
       mobileSrc: "/images/laptop_yacht@1x.jpg",
@@ -93,7 +121,7 @@ export const allProjects = [
     },
   },
 
-  // 5
+  // 6
   {
     image: {
       mobileSrc: "/images/laptop_tastyTreats@1x.jpg",
@@ -116,7 +144,7 @@ export const allProjects = [
       },
     },
   },
-  // 6
+  // 7
   {
     image: {
       mobileSrc: "/images/laptop_searchimages@1x.jpg",
@@ -143,7 +171,7 @@ export const allProjects = [
       },
     },
   },
-  // 7
+  // 8
   {
     image: {
       mobileSrc: "/images/laptop_barbershop@1x.jpg",

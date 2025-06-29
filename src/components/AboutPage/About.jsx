@@ -8,10 +8,10 @@ export const About = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="about-container py-16 lg:py-24">
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+    <section id="about" className="py-16 about-container lg:py-24">
+      <div className="grid items-center grid-cols-1 gap-8 lg:grid-cols-2">
         <div className="flex justify-center lg:justify-end">
-          <div className="  w-48 h-48 sm:w-56 sm:h-56 lg:w-72 lg:h-72 ">
+          <div className="w-48 h-48  sm:w-56 sm:h-56 lg:w-72 lg:h-72">
             <img
               src="/images/portfolioPhoto/face@2x.webp"
               alt="my face"
@@ -20,10 +20,10 @@ export const About = () => {
           </div>
         </div>
         <div className="flex flex-col text-center lg:text-left">
-          <h2 className="text-3xl font-bold text-blue-600 mb-4 sm:text-4xl">
+          <h2 className="mb-4 text-3xl font-bold text-blue-600 sm:text-4xl">
             {t("about.name")}
           </h2>
-          <p className="text-base sm:text-lg lg:text-xl text-gray-600 dark:text-gray-100 mb-6">
+          <p className="mb-6 text-base text-gray-600 sm:text-lg lg:text-xl dark:text-gray-100">
             {t("about.title")}
           </p>
           <div className="flex justify-center lg:justify-start">

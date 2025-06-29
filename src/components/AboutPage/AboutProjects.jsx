@@ -13,14 +13,14 @@ export const AboutProjects = () => {
   return (
     <section
       id="projects"
-      className="container mx-auto flex flex-col justify-center"
+      className="container flex flex-col justify-center mx-auto"
     >
-      <div className="w-full mb-20 text-left flex flex-col lg:flex-row lg:justify-evenly lg:items-center lg:gap-6">
+      <div className="flex flex-col w-full mb-20 text-left lg:flex-row lg:justify-evenly lg:items-center lg:gap-6">
         <div className="lg:w-[60%]">
-          <h2 className="text-blue-600 text-4xl sm:text-5xl font-bold uppercase mb-2">
+          <h2 className="mb-2 text-4xl font-bold text-blue-600 uppercase sm:text-5xl">
             {t("about.portfolio")}
           </h2>
-          <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-100">
+          <p className="text-xl text-gray-600 sm:text-2xl dark:text-gray-100">
             {t("about.projects_title")}
           </p>
         </div>
@@ -33,11 +33,11 @@ export const AboutProjects = () => {
         </div>
       </div>
 
-      <div className="flex justify-center text-xl sm:text-7xl lg:text-9xl space-x-4">
-        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="flex justify-center space-x-4 text-xl sm:text-7xl lg:text-9xl">
+        <ul className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {allProjects.slice(0, 4).map((project, index) => (
             <li key={index}>
-              <ProjectCard projectContent={project} />{" "}
+              <ProjectCard projectContent={project} />
             </li>
           ))}
         </ul>
