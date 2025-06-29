@@ -31,7 +31,7 @@ export const HeaderMobile = () => {
       <SvgFilter />
       <header
         style={{ backdropFilter: "url(#svgfilter)" }}
-        className="fixed z-10 flex items-center justify-between w-full px-8 py-4 text-black transition-colors duration-300 bg-white/70 shadow-md dark:bg-[#252526]/80 dark:text-white md:hidden"
+        className="fixed z-10 flex items-center justify-between w-full px-8 py-4 text-black transition-colors duration-300 bg-white/70 shadow-md dark:bg-[#252526] dark:text-white md:hidden"
       >
         <ThemeSwitcher />
         <button
