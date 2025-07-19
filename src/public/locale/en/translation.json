@@ -1,29 +1,28 @@
 {
-    "header":{
-       "about_nav":"About me",
-    "projects_nav":"Projects",
-    "contacts_nav":"Contacts"
+  "header": {
+    "about_nav": "About me",
+    "projects_nav": "Projects",
+    "contacts_nav": "Contacts"
+  },
+  "about": {
+    "name": "Hi There, I'm Andriy Zirchenko",
+    "title": "Motivated  Frontend Developer with strong knowledge of JavaScript, TypeScript, React/Next.js, Tailwind CSS, and practical experience in building responsive and functional web applications. Over the past two years, I’ve worked on both team and personal projects, taking responsibility for development from setup to deployment. Passionate about writing clean, scalable code and continuously improving my skills. Open to new technologies and ready to grow within a collaborative development team.",
+    "talk_button": "Let's talk",
+    "resume_button": "Resume",
+    "portfolio": "Portfolio",
+    "projects_title": "A gallery of my projects. I made them myself and together with my friends. Do you want to see more?",
+    "projects_button": "All projects"
+  },
 
-},
-"about":{
-    "name":"Hi There, I'm Andriy Zirchenko",
-    "title":"Aspiring to thrive in the dynamic IT world, I am poised to embrace the challenges of a new field. Fueled by a relentless passion for learning and a knack for solving complex problems, my journey has been marked by successful projects. These experiences have equipped me for the exhilarating path of a front-end developer.",
-    "talk_button":"Let's talk",
-    "resume_button":"Resume",
-    "portfolio":"Portfolio",
-    "projects_title":"A gallery of my projects. I made them myself and together with my friends. Do you want to see more?",
-    "projects_button":"All projects"
-},
+  "card": {},
 
-"card":{},
+  "project": {
+    "title": "Projects",
+    "text": "All my projects are collected here"
+  },
 
-"project":{
-    "title":"Projects",
-    "text":"All my projects are collected here"
-},
-
-"contact":{
-    "title":"Contact",
-    "text":"You can find me here"
-}
+  "contact": {
+    "title": "Contact",
+    "text": "You can find me here"
+  }
 }
