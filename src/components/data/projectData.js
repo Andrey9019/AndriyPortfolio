@@ -49,6 +49,7 @@ export const allProjects = [
     heading: "Task Pro",
     skills: [FaReact, SiTypescript, SiTailwindcss, SiVite, SiRedux],
     links: ["https://www.taskpro.online/"],
+
     translations: {
       en: {
         description:
